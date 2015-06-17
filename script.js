@@ -1,0 +1,1 @@
+document.getElementByClassName("fadeIn1").className += " fadeIn2";
