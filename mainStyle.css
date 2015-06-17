@@ -5,17 +5,20 @@ body{background-color: #21ABCD; font-family: 'Inconsolata', 'Serif';}
 h1{font-size: 50px;}
 h3{font-size:18px;}
 
-nav{display:inline;}
+#nav{text-align:center;}
+#nav ul{display:inline-block; list-style:none;}
+#nav li{display:inline;}
+#nav a{float:left; text-decoration:none; padding:0 30px;}
+
+a{color:rgba(0,0,0,0.76);}
+a:hover{color:rgba(0,0,0,1);}
 
 .centered{margin-left:auto; margin-right:auto; display:block; text-align:center;}
 .topSpace{margin-top:50px;}
 
-.bigShadow{text-shadow:0 0 10px rgba(0,0,0,0.3);}
 .smallShadow{text-shadow:0 0 20px rgba(255,255,255,0.15)}
 
-.white{color:#FFF;}
-.gray{color:rgba(0,0,0,0.42);}
-.gray2{color:rgba(0,0,0,0.76)}
+.gray2{color:rgba(0,0,0,0.76);}
 
 .fadeIn{
   animation: fadein 2s;
